@@ -1,0 +1,10 @@
+def red_cat():
+    balans = int(input())
+    money = int(input())
+    if money < balans:
+        new_balans = balans - money
+        print(new_balans)
+        print("Готово!")
+    else:
+        print("Отказ!")
+red_cat()
